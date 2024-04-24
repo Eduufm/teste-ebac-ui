@@ -33,7 +33,7 @@ describe('Funcionalidade: Cadastro', () => {
         cy.get('#account_first_name').type(nome)
         cy.get('#account_last_name').type(sobrenome)
         cy.get('.woocommerce-Button').click()
-        
+    
         
         
     });
